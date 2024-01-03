@@ -12,12 +12,12 @@ if __name__ == '__main__':
     
     n = int(input().strip())
 
-    if (n%2) != 0:
+    if (n % 2) != 0:
         print("Weird")
-    elif (1<n<6) & (n%2) == 0:
+    elif (2 <= n <= 5) and (n % 2) == 0:
         print("Not Weird")
-    elif (5<n<21):
+    elif (6 <= n <= 20) and (n % 2) == 0:
         print("Weird")
-    else:
-        print("Not Weird")
+    elif (n % 2) == 0 and (n > 20):
+        print("Not Weird"
    
