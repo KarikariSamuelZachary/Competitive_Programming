@@ -1,2 +1,3 @@
 # Competitive_Programming
-Solving basc to complx problems to become a better programmer who can assess and challenge
+Solving basic to complex problems to become a better programmer who can assess and challenge
+#Leetcode #HackerRank #Edx
