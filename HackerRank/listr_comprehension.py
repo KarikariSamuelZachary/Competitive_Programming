@@ -1,12 +1,16 @@
-x, y, z, n = map(int, input().split())
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+    
+    list = []
+    
+    for i in range(x+1):
+        for j in range(y+1):
+            for k in range(z+1):
+                if n != i + j + k:
+                    list.append([i, j, k])
 
-coordinates = [
-    [i, j, k] 
-    for i in range(x + 1) 
-    for j in range(y + 1) 
-    for k in range(z + 1) 
-    if i + j + k != n
-]
-
-print(coordinates)
+print(list)
 
