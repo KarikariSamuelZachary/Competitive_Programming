@@ -14,6 +14,7 @@ if __name__ == '__main__':
         
     if second_lowest_score is not None:
         second_lowest_students = [student[0] for student in student_data if student[1] == second_lowest_score]
+        second_lowest_score.sort()
         for student in second_lowest_students:
             print(student)
         
