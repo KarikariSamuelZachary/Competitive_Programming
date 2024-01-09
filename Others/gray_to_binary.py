@@ -12,3 +12,7 @@ gray_num = binary_to_gray(binary_num)
 
 int("The gray code is:", bin(gray_num)[2:])
 
+"""
+Digital electronics Assignment
+UMaT
+"""
