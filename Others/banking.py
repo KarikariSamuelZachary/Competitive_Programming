@@ -1,3 +1,4 @@
+"""This is a mini banking app I created using Object Oriented Programming"""
 class User:
     def __init__(self,name,age:int,gender):
         self.name= name
