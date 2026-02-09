@@ -9,5 +9,4 @@ class Solution(object):
             for j in range(i + 1, len(nums)):
                 if nums[i] + nums[j] == target:
                     output = [i, j]
-
                     return output
